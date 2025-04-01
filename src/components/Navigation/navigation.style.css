@@ -16,9 +16,13 @@
     margin: 0px auto;
   }
   
-  .navigation_wrapper a {
+  .navigation_wrapper span a {
     text-decoration: none;
     color: white;
+    background-color: red;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-weight: bold;
   }
 
   .navigation_list {
