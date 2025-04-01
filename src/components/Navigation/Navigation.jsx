@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <div className="navigation_wrapper">
-                <span><Link to="/">React course</Link></span>
+                <span><Link to="/">Our blog</Link></span>
                 <nav className="navigation_list">
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
