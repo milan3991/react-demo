@@ -11,10 +11,7 @@ const ContactForm = () => {
                 </section>
                 <textarea placeholder='Your Messange *'></textarea>
             </div>
-
             <button className='form_btn'>SEND MESSAGE</button>
-
-
         </div>
     );
 };
