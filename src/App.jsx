@@ -5,6 +5,7 @@ import Contact from "./pages/Contact/Contact"
 import NotFound from "./pages/NotFound/NotFound"
 import UserById from "./pages/Users/UserById"
 import Navigation from "./components/Navigation/Navigation"
+import Team from "./pages/Team/Team"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/users/:id" element={<UserById />} />
+        <Route path="/team" element={<Team/>} />
       </Routes>
     </Router>
   )
