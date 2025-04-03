@@ -10,7 +10,7 @@ const Home = () => {
                 <h2 className='shadow'>I'm Milan Mircic</h2>
             </div>
             <div className="contact_section">
-                <p>If you want to stay in touch</p>
+                <p>Want to stay in touch?</p>
                 <Button text="Contact us" link="/contact" />
             </div>
         </div>
